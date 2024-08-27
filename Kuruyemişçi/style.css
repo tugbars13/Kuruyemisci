@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#482911 ;
+    display: flex;
+    justify-content: space-between;
+    color:#FFEAC5 ;
+    padding: 10px 20px;
+    margin-bottom: ;
+}
+.list{
+    list-style-type: none;
+    display: flex; 
+}
+.list a{
+    padding-right: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    color:#FFEAC5 ;
+}
+.img{
+    background-image: url(img/pexels-vie-studio-7420937.jpg);
+    width: 100%;
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+}
+.hero {
+    display: block;
+    justify-content: center; 
+    align-items: flex-end;    
+    text-align: center;    
+    padding: 150px;
+    color: #321c0b;
+}
+.hero h1 {
+    font-size: 3rem; 
+    margin-bottom: 20px;
+    
+}
+
+.hero p {
+    font-size: 1.5rem; 
+    margin-bottom: 20px; 
+}
+
+.hero button {
+    font-size: 1rem;
+    padding: 10px 20px; 
+    color: #FFEAC5;
+    font-size: 20px;
+    background-color: #482911;
+    border-radius: none;
+}   
+.ana h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #321c0b;
+}
+.kuru{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.kuruyemisResmiİmg{
+    margin: 40px 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.kuruyemisResmi{
+    background-color: #613310;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.kuruyemisResmi p{
+    color:#FFEAC5;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+.kuruyemisResmi :hover{
+    cursor: pointer;
+}
+.ek{
+    text-align: center;
+    color: #321c0b;
+    background-color:#FFEAC5 ;
+    padding: 50px;
+    margin-top: 30px;
+}
+.hakkımızda h1{
+    font-size: 15px;
+    padding: 10px;
+}
+.iletisim h1{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.son{
+    background-color: #482911;
+    padding: 15px;
+    text-align: center;
+    color: #FFEAC5;
+}
